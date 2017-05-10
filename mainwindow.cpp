@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "minions.h"
+
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -17,15 +17,23 @@ MainWindow::MainWindow(QWidget *parent) :
 
  // placebase->setPixmap(QPixmap(":res/New piskel.png"));
  //  placebase->setPos(0, 0);
-    scene->addItem(minion[2].picture);
-    minion[2].picture->setPos(0,0);
 
 
 
 }
+
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
+void MainWindow::mousePressEvent(QMouseEvent *e)
+{
+    list.push_back(minion(1,1,e->x(),e->y()));
+    for(auto cyclelist:list)
+    {
+        scene->addItem(cyclelist.picture);
+        cyclelist.picture->setPos(cyclelist.x,cyclelist.y);
+    }
 
+}

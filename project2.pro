@@ -14,12 +14,10 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    minions.cpp \
-    function.cpp
+    minion.cpp
 
 HEADERS  += mainwindow.h \
-    minions.h \
-    function.h
+    minion.h
 
 FORMS    += mainwindow.ui
 
