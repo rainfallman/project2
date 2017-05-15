@@ -3,6 +3,8 @@
         <file>res/dragon.png</file>
 	<file>res/place.png</file>
 	<file>res/New Piskel.png</file>
+<file>res/startpicture.png</file>
+<file>res/dragoncard.png</file>
 
     </qresource>
 </RCC>
