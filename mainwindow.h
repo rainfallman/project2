@@ -7,6 +7,7 @@
 #include <QList>
 #include <QKeyEvent>
 #include <QPushButton>
+#include <time.h>
 namespace Ui {
 class MainWindow;
 }
@@ -21,6 +22,7 @@ public:
     QList<minion> list;
 public slots:
     virtual void mousePressEvent(QMouseEvent *e);
+    virtual void keyPressEvent(QKeyEvent *e);
 private slots:
 
     void on_startgame_clicked();
@@ -32,13 +34,17 @@ private slots:
 
     void on_veryhard_clicked();
 
+
+
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
     QGraphicsPixmapItem *placebase;
+
     int nowbattletime=0;
     int miniondata[5];
-    QGraphicsPixmapItem *minidatapicture;
+    int minipress=0;
+    QGraphicsPixmapItem *minidatapicture[5];
 
 
 

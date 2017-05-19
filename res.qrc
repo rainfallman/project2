@@ -5,6 +5,26 @@
 	<file>res/New Piskel.png</file>
 <file>res/startpicture.png</file>
 <file>res/dragoncard.png</file>
+<file>res/god.png</file>
+<file>res/godcard.png</file>
+<file>res/blueeye.png</file>
+<file>res/blueeyecard.png</file>
+<file>res/gamecrash.png</file>
+<file>res/gamecrashp.png</file>
+<file>res/yee.png</file>
+<file>res/yeecard.png</file>
+<file>res/win1.jpg</file>
+<file>res/win2.jpg</file>
+<file>res/trumphead.png</file>
+<file>res/trumpheadm.png</file>
+<file>res/trumpleft.png</file>
+<file>res/trumpleftl.png</file>
+<file>res/trumpleftm.png</file>
+<file>res/trumpleftlm.png</file>
+<file>res/trumpright.png</file>
+<file>res/trumprightm.png</file>
+<file>res/trumprightl.png</file>
+<file>res/trumprightlm.png</file>
 
     </qresource>
 </RCC>

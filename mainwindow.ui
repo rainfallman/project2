@@ -50,7 +50,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>normal </string>
+     <string>normal</string>
     </property>
    </widget>
    <widget class="QPushButton" name="hard">

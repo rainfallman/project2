@@ -583,10 +583,30 @@ compiler_rcc_clean:
 	-$(DEL_FILE) qrc_res.cpp
 qrc_res.cpp: ../res.qrc \
 		../../Qt5.7.0/5.7/gcc_64/bin/rcc \
-		../res/dragon.png \
+		../res/trumpheadm.png \
+		../res/trumprightl.png \
+		../res/trumprightm.png \
+		../res/gamecrash.png \
+		../res/trumphead.png \
+		../res/god.png \
+		../res/trumprightlm.png \
 		../res/dragoncard.png \
+		../res/yeecard.png \
+		../res/place.png \
+		../res/trumpleftlm.png \
+		../res/trumpleft.png \
+		../res/trumpright.png \
 		../res/startpicture.png \
-		../res/place.png
+		../res/godcard.png \
+		../res/dragon.png \
+		../res/yee.png \
+		../res/blueeye.png \
+		../res/win1.jpg \
+		../res/blueeyecard.png \
+		../res/win2.jpg \
+		../res/trumpleftl.png \
+		../res/gamecrashp.png \
+		../res/trumpleftm.png
 	/home/pd2vm/Qt5.7.0/5.7/gcc_64/bin/rcc -name res ../res.qrc -o qrc_res.cpp
 
 compiler_moc_header_make_all: moc_mainwindow.cpp

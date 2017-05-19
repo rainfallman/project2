@@ -81,7 +81,7 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
         startgame->setText(QApplication::translate("MainWindow", "start!!", 0));
-        normal->setText(QApplication::translate("MainWindow", "normal ", 0));
+        normal->setText(QApplication::translate("MainWindow", "normal", 0));
         hard->setText(QApplication::translate("MainWindow", "hard", 0));
         veryhard->setText(QApplication::translate("MainWindow", "very hard", 0));
     } // retranslateUi
